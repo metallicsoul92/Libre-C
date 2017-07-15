@@ -9,7 +9,7 @@
 #ifdef NDEBUG
 #define assert(expression)        ((void) 0)
 #else //NDEBUG
-#undef assert(expression)
+#undef assert
 #define __VAL(x) #x
 #define STR(x) __VAL(X)
 void __assert(char*);

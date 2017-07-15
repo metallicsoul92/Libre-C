@@ -7,7 +7,7 @@ size_t strlen(const char* str) {
 	return len;
 }
 
-static void
+void
 reverse(char s[])
 {
     int i, j;

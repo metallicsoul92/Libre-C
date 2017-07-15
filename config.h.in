@@ -33,5 +33,5 @@
 
 
 //Create custom lock system
-#define _HAS_CUSTOM_LOCK_ @_HAS_CUSTOM_LOCK_@
+#cmakedefine _HAS_CUSTOM_LOCK_ @__HAS_CUSTOM_LOCK__@
 #endif

@@ -10,7 +10,7 @@
 /*TODO: PRINTF: add char[16] buf
             create sitoa in stdlib which inputs a buffer
 */
-static bool print(const char* data, size_t length) {
+bool print(const char* data, size_t length) {
     const unsigned char* bytes = (const unsigned char*) data;
     for (size_t i = 0; i < length; i++){
         if (putchar(bytes[i]) == EOF)

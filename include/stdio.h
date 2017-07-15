@@ -79,9 +79,9 @@ struct __IO_FILE{
 typedef struct  __IO_FILE __FILE;
 
 
-extern struct __IO_FILE * _stdin;
-extern struct __IO_FILE * _stdout;
-extern struct __IO_FILE * _stderr;
+struct __IO_FILE  _stdin;
+struct __IO_FILE  _stdout;
+struct __IO_FILE  _stderr;
 
 /* C89/C99 say these are macros.  */
 #define stdin _stdin
@@ -89,7 +89,7 @@ extern struct __IO_FILE * _stderr;
 #define stderr _stderr
 
 
-static bool print(const char *data,size_t length);
+bool print(const char *data,size_t length);
 int printf(const char* __restrict, ...);
 int sprintf (char *string, const char *form,...);
 
