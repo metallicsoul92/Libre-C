@@ -1,344 +1,437 @@
-<?xml version="1.0" encoding="UTF-8" standalone="yes" ?>
+<?xml version="1.0" encoding="UTF-8"?>
 <CodeBlocks_project_file>
-   <FileVersion major="1" minor="6" />
-   <Project>
-      <Option title="libre-c" />
-      <Option makefile_is_custom="1" />
-      <Option compiler="gcc" />
-      <Option virtualFolders="CMake Files\;" />
-      <Build>
-      <Target title="all">
-         <Option working_dir="/home/clim/Desktop/Github/Libre-C/bin" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 all" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="edit_cache">
-         <Option working_dir="/home/clim/Desktop/Github/Libre-C/bin" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 edit_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="install">
-         <Option working_dir="/home/clim/Desktop/Github/Libre-C/bin" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 install" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="install/local">
-         <Option working_dir="/home/clim/Desktop/Github/Libre-C/bin" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 install/local" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="install/strip">
-         <Option working_dir="/home/clim/Desktop/Github/Libre-C/bin" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 install/strip" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="libre-c">
-         <Option output="/home/clim/Desktop/Github/Libre-C/bin/liblibre-c.a" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/clim/Desktop/Github/Libre-C/bin" />
-         <Option object_output="./" />
-         <Option type="2" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/clim/Desktop/Github/Libre-C" />
-            <Add directory="/home/clim/Desktop/Github/Libre-C/bin" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.9" />
-            <Add directory="/usr/include/c++/4.9/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.9" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 libre-c" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="libre-c/fast">
-         <Option output="/home/clim/Desktop/Github/Libre-C/bin/liblibre-c.a" prefix_auto="0" extension_auto="0" />
-         <Option working_dir="/home/clim/Desktop/Github/Libre-C/bin" />
-         <Option object_output="./" />
-         <Option type="2" />
-         <Option compiler="gcc" />
-         <Compiler>
-            <Add directory="/home/clim/Desktop/Github/Libre-C" />
-            <Add directory="/home/clim/Desktop/Github/Libre-C/bin" />
-            <Add directory="/usr/include" />
-            <Add directory="/usr/include/c++/4.9" />
-            <Add directory="/usr/include/c++/4.9/backward" />
-            <Add directory="/usr/include/x86_64-linux-gnu" />
-            <Add directory="/usr/include/x86_64-linux-gnu/c++/4.9" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include" />
-            <Add directory="/usr/lib/gcc/x86_64-linux-gnu/4.9/include-fixed" />
-            <Add directory="/usr/local/include" />
-         </Compiler>
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 libre-c/fast" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="list_install_components">
-         <Option working_dir="/home/clim/Desktop/Github/Libre-C/bin" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 list_install_components" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      <Target title="rebuild_cache">
-         <Option working_dir="/home/clim/Desktop/Github/Libre-C/bin" />
-         <Option type="4" />
-         <MakeCommands>
-            <Build command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 rebuild_cache" />
-            <CompileFile command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;" />
-            <Clean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-            <DistClean command="/usr/bin/make -f &quot;/home/clim/Desktop/Github/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean" />
-         </MakeCommands>
-      </Target>
-      </Build>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/assert.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/ctypes.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/errno.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/stdio/fileimp.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/stdio/printf.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/stdio/putchar.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/stdio/puts.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/stdlib/abort.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/stdlib/itoa.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/string/memchr.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/string/memcmp.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/string/memcpy.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/string/memmove.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/string/memset.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/string/strcmp.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/src/string/strlen.c">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/bin/config.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/aio.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/arpa/in.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/arpa/inet.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/assert.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/complex.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/cpio.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/ctype.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/ctypes.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/dirent.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/dlfcn.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/errno.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/fcntl.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/fenv.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/float.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/fmtmsg.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/fnmatch.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/ftw.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/glob.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/iconv.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/inttypes.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/iso646.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/langinfo.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/libgen.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/limits.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/locale.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/math.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/monetary.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/mqueue.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/ndbm.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/net/if.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/netdb.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/netinet/in.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/netinet/tcp.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/nl_types.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/poll.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/pthread.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/pwd.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/regex.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sched.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/search.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/semaphore.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/setjmp.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/signal.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/spawn.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/stdarg.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/stdbool.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/stddef.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/stdint.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/stdio.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/stdlib.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/string.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/strings.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/stropts.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/cdefs.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/file.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/ipc.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/mman.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/msg.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/resource.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/select.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/sem.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/shm.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/socket.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/stat.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/statvfs.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/syscalls.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/time.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/times.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/types.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/uio.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/un.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/utsname.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/sys/wait.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/syslog.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/tar.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/termios.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/tgmath.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/time.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/trace.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/ulimit.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/unistd.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/utime.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/utmpx.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/wchar.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/wctypte.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/include/wordexp.h">
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/CMakeLists.txt">
-          <Option virtualFolder="CMake Files\" />
-      </Unit>
-      <Unit filename="/home/clim/Desktop/Github/Libre-C/config.h.in">
-          <Option virtualFolder="CMake Files\" />
-      </Unit>
-   </Project>
+	<FileVersion major="1" minor="6"/>
+	<Project>
+		<Option title="libre-c"/>
+		<Option makefile_is_custom="1"/>
+		<Option compiler="clang"/>
+		<Option virtualFolders="CMake Files\;"/>
+		<Build>
+			<Target title="all">
+				<Option working_dir="/usr/home/climjark/Projects/Libre-C/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 all"/>
+					<CompileFile command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/local">
+				<Option working_dir="/usr/home/climjark/Projects/Libre-C/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 install/local"/>
+					<CompileFile command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install/strip">
+				<Option working_dir="/usr/home/climjark/Projects/Libre-C/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 install/strip"/>
+					<CompileFile command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="install">
+				<Option working_dir="/usr/home/climjark/Projects/Libre-C/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 install"/>
+					<CompileFile command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="list_install_components">
+				<Option working_dir="/usr/home/climjark/Projects/Libre-C/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 list_install_components"/>
+					<CompileFile command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="rebuild_cache">
+				<Option working_dir="/usr/home/climjark/Projects/Libre-C/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 rebuild_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="edit_cache">
+				<Option working_dir="/usr/home/climjark/Projects/Libre-C/bin"/>
+				<Option type="4"/>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 edit_cache"/>
+					<CompileFile command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libre-c">
+				<Option output="/usr/home/climjark/Projects/Libre-C/bin/liblibre-c.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/home/climjark/Projects/Libre-C/bin"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/climjark/Projects/Libre-C"/>
+					<Add directory="/usr/home/climjark/Projects/Libre-C/bin"/>
+					<Add directory="/usr/include/c++/v1"/>
+					<Add directory="/usr/bin/../lib/clang/3.8.0/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 libre-c"/>
+					<CompileFile command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+			<Target title="libre-c/fast">
+				<Option output="/usr/home/climjark/Projects/Libre-C/bin/liblibre-c.a" prefix_auto="0" extension_auto="0"/>
+				<Option working_dir="/usr/home/climjark/Projects/Libre-C/bin"/>
+				<Option object_output="./"/>
+				<Option type="2"/>
+				<Option compiler="clang"/>
+				<Compiler>
+					<Add directory="/home/climjark/Projects/Libre-C"/>
+					<Add directory="/usr/home/climjark/Projects/Libre-C/bin"/>
+					<Add directory="/usr/include/c++/v1"/>
+					<Add directory="/usr/bin/../lib/clang/3.8.0/include"/>
+					<Add directory="/usr/include"/>
+				</Compiler>
+				<MakeCommands>
+					<Build command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 libre-c/fast"/>
+					<CompileFile command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 &quot;$file&quot;"/>
+					<Clean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+					<DistClean command="/usr/bin/make -f &quot;/usr/home/climjark/Projects/Libre-C/bin/Makefile&quot;  VERBOSE=1 clean"/>
+				</MakeCommands>
+			</Target>
+		</Build>
+		<Unit filename="/home/climjark/Projects/Libre-C/bin/config.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/aio.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/arpa/in.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/arpa/inet.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/assert.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/complex.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/cpio.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/ctype.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/ctypes.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/dirent.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/dlfcn.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/errno.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/fcntl.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/fenv.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/float.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/fmtmsg.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/fnmatch.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/ftw.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/glob.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/iconv.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/inttypes.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/iso646.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/langinfo.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/libgen.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/limits.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/locale.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/math.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/monetary.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/mqueue.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/ndbm.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/net/if.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/netdb.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/netinet/in.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/netinet/tcp.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/nl_types.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/poll.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/pthread.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/pwd.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/regex.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sched.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/search.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/semaphore.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/setjmp.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/signal.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/spawn.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/stdarg.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/stdbool.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/stddef.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/stdint.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/stdio.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/stdlib.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/string.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/strings.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/stropts.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/cdefs.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/file.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/ipc.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/mman.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/msg.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/resource.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/select.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/sem.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/shm.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/socket.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/stat.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/statvfs.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/syscalls.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/time.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/times.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/types.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/uio.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/un.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/utsname.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/sys/wait.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/syslog.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/tar.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/termios.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/tgmath.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/time.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/trace.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/ulimit.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/unistd.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/utime.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/utmpx.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/wchar.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/wctypte.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/include/wordexp.h">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/assert.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/ctypes.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/errno.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/stdio/fileimp.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/stdio/printf.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/stdio/putchar.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/stdio/puts.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/stdlib/abort.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/stdlib/itoa.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/string/memchr.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/string/memcmp.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/string/memcpy.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/string/memmove.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/string/memset.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/string/strcmp.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/src/string/strlen.c">
+			<Option target="libre-c"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/CMakeLists.txt">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+		<Unit filename="/home/climjark/Projects/Libre-C/config.h.in">
+			<Option virtualFolder="CMake Files\"/>
+		</Unit>
+	</Project>
 </CodeBlocks_project_file>

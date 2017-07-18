@@ -9,8 +9,9 @@
 
 //Platform Detection
 /* #undef __OSX__ */
-#define __LINUX__ 1
+/* #undef __LINUX__ */
 /* #undef __WINDOWS__ */
+#define __FREEBSD__ 1
 /* #undef __KERNEL__ */
 
 //Compiler Detection
@@ -19,12 +20,13 @@
 /* #undef __cygwin__ */
 /* #undef __borland__ */
 /* #undef __msvc__ */
-#define __gcc__ 1
+/* #undef __gcc__ */
 /* #undef __gxx__ */
+#define __clang__ 1
 
 //Compiler Identification
-#define __c_compilerID__ "GNU"
-#define __cxx_compilerID__ "GNU"
+#define __c_compilerID__ "Clang"
+#define __cxx_compilerID__ "Clang"
 //Features:
 #define __MT_ENABLED 1
 

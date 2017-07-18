@@ -22,6 +22,9 @@ ELSEIF(${CMAKE_SYSTEM_NAME} MATCHES "Linux")
     # Linux specific code
     SET(__LINUX__ 1)
 
+ELSEIF(${CMAKE_SYSTEM_NAME} MATCHES "FreeBSD")
+    # Linux specific code
+    SET(__FREEBSD__ 1)
 
 ELSEIF(${CMAKE_SYSTEM_NAME} MATCHES "Windows")
     # Windows specific code
@@ -52,8 +55,10 @@ ELSEIF(MSVC)
 SET(__msvc__ 1)
 ELSEIF(CMAKE_COMPILER_IS_GNUCC)
 SET(__gcc__ 1)
-ELSE(CMAKE_COMPILER_IS_GNUCXX)
+ELSEIF(CMAKE_COMPILER_IS_GNUCXX)
 SET(__gxx__ 1)
+ELSEIF(CMAKE_C_COMPILER_ID MATCHES "Clang")
+SET(__clang__ 1)
 ENDIF(MINGW)
 
 

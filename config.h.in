@@ -11,6 +11,7 @@
 #cmakedefine __OSX__ @__OSX__@
 #cmakedefine __LINUX__ @__LINUX__@
 #cmakedefine __WINDOWS__ @__WINDOWS__@
+#cmakedefine __FREEBSD__ @__FREEBSD__@
 #cmakedefine __KERNEL__ @__KERNEL__@
 
 //Compiler Detection
@@ -21,6 +22,7 @@
 #cmakedefine __msvc__ @__msvc__@
 #cmakedefine __gcc__ @__gcc__@
 #cmakedefine __gxx__ @__gxx__@
+#cmakedefine __clang__ @__clang__@
 
 //Compiler Identification
 #define __c_compilerID__ "@CMAKE_C_COMPILER_ID@"
